@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+  }
+  .a {
+    display: flex;
+    background-color: whitesmoke;
+  }
+  
+  .left {
+    flex: 3;
+  }
+  
+  .right {
+    flex: 1;
+    max-width: 500px;
+    color: black;
+  }
+  
+  .left, .right {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: calc(100vh - 30px);
+  }
+  
+  .all-graphs-details{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  .btn-group button {
+    color: black;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 13px 24px;
+    width: 75%;
+    display: block;
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .logo{
+    margin-left: 130px;
+    width: 100px; 
+    height: 100px; 
+    border-radius: 80%;
+    border: 1px solid black;
+  }
